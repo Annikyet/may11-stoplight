@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: repeating-linear-gradient(45deg, #181818, #181818 16px, #333333 16px, #333333 20px);
+  /* background-color: #000000; */
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.stoplight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vh;
+  height: 80vh;
+}
+
+.stalk {
+  width: 40%;
+  height: 25%;
+  background-color: #333333;
+}
+
+.light-body {
+  width: 100%;
+  height: 75%;
+  background-color: #555555;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.light {
+  width: 90%;
+  height: 30%;
+  border-radius: 100%;
+}
+
+.red {
+  background-color: #990000;
+}
+
+.yellow {
+  background-color: #998500;
+}
+
+.green {
+  background-color: #009900;
+}
+
+.lit.red {
+  background-color: #ff0000;
+  filter:drop-shadow(0px 0px 32px #ff0000)
+}
+
+.lit.yellow {
+  background-color: #ffff00;
+  filter:drop-shadow(0px 0px 32px #ffff00)
+}
+
+.lit.green {
+  background-color: #00ff00;
+  filter:drop-shadow(0px 0px 32px #00ff00)
+}
